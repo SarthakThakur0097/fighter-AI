@@ -1,0 +1,293 @@
+-- ============================================================================
+-- MMA Fighter Statistics Database Schema v2
+-- Optimized for Feature Engineering and Machine Learning
+-- ============================================================================
+
+-- NOTE: These PRAGMAs must be run OUTSIDE of transactions
+-- They should be set when opening the database connection
+
+-- ============================================================================
+-- CORE TABLES
+-- ============================================================================
+
+-- Enable foreign key constraints first
+PRAGMA foreign_keys = ON;
+
+-- ----------------------------------------------------------------------------
+-- 1. Fighters Table (Dimensional Data)
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fighters_v2 (
+  fighter_id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  nickname TEXT,
+  
+  -- Physical attributes (for reach/height advantage features)
+  dob TEXT,              -- Format: "Jul 19, 1987" (for age calculations)
+  height TEXT,           -- Format: "6' 4""
+  weight TEXT,           -- Format: "248 lbs."
+  reach TEXT,            -- Format: "84"" (for reach advantage features)
+  stance TEXT,           -- Orthodox/Southpaw/Switch
+  record TEXT,           -- Format: "28-1-0 (1 NC)"
+  
+  -- Career statistics (from fighter profile page)
+  slpm REAL,             -- Significant Strikes Landed per Minute
+  str_acc REAL,          -- Striking Accuracy (as decimal: 0.58 = 58%)
+  sapm REAL,             -- Significant Strikes Absorbed per Minute
+  str_def REAL,          -- Strike Defense (as decimal: 0.64 = 64%)
+  td_avg REAL,           -- Takedown Average per 15 minutes
+  td_acc REAL,           -- Takedown Accuracy (as decimal: 0.45 = 45%)
+  td_def REAL,           -- Takedown Defense (as decimal: 0.95 = 95%)
+  sub_avg REAL,          -- Submission Average per 15 minutes
+  
+  -- Metadata
+  source_url TEXT,       -- UFCStats fighter profile URL
+  is_stub INTEGER DEFAULT 0,  -- 1 if minimal data (opponent stub)
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ----------------------------------------------------------------------------
+-- 2. Fights Table (Fight-Level Metadata)
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fights_v2 (
+  fight_id TEXT PRIMARY KEY,
+  fight_details_url TEXT,
+  
+  -- Event information
+  event_name TEXT,       -- e.g., "UFC 309: Jones vs. Miocic"
+  event_date TEXT,       -- CRITICAL for time-decay features (ISO format: YYYY-MM-DD)
+  
+  -- Fight details
+  weight_class TEXT,     -- e.g., "UFC Heavyweight Title Bout"
+  method TEXT,           -- KO/TKO, Submission, Decision, DQ, etc. (for knockout features)
+  ending_round INTEGER,  -- Which round the fight ended
+  ending_time TEXT,      -- Time in round when fight ended (e.g., "4:29")
+  time_format TEXT,      -- e.g., "5 Rnd (5-5-5-5-5)" or "3 Rnd (5-5-5)"
+  referee TEXT,
+  
+  -- Additional details
+  details TEXT,          -- Can store JSON for extra metadata
+  
+  -- Metadata
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ----------------------------------------------------------------------------
+-- 3. Fight Fighters (Bridge Table - Many-to-Many)
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fight_fighters_v2 (
+  fight_id TEXT NOT NULL,
+  fighter_id TEXT NOT NULL,
+  
+  -- Fighter role in this fight
+  corner TEXT,           -- 'fighter_1' or 'fighter_2' (red/blue corner)
+  result TEXT,           -- 'win', 'loss', 'draw', 'nc' (for win ratio features)
+  
+  PRIMARY KEY (fight_id, fighter_id),
+  FOREIGN KEY (fight_id) REFERENCES fights_v2(fight_id) ON DELETE CASCADE,
+  FOREIGN KEY (fighter_id) REFERENCES fighters_v2(fighter_id) ON DELETE CASCADE
+);
+
+-- ----------------------------------------------------------------------------
+-- 4. Fight Rounds (Round-Level Metadata)
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fight_rounds_v2 (
+  round_id TEXT PRIMARY KEY,      -- Format: "fight_id:round_number"
+  fight_id TEXT NOT NULL,
+  round_number INTEGER NOT NULL,  -- 1, 2, 3, 4, 5 (for Round 1 specific features)
+  
+  FOREIGN KEY (fight_id) REFERENCES fights_v2(fight_id) ON DELETE CASCADE
+);
+
+-- ----------------------------------------------------------------------------
+-- 5. Fight Round Stats (Per-Round, Per-Fighter Core Statistics)
+-- THIS IS THE KEY TABLE FOR FEATURE ENGINEERING
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fight_round_stats_v2 (
+  round_id TEXT NOT NULL,
+  fighter_id TEXT NOT NULL,
+  
+  -- Knockdowns (for knockout features)
+  knockdowns INTEGER DEFAULT 0,
+  
+  -- Significant strikes (for striking accuracy features)
+  sig_str_landed INTEGER DEFAULT 0,
+  sig_str_attempted INTEGER DEFAULT 0,
+  
+  -- Total strikes (includes non-significant strikes)
+  total_str_landed INTEGER DEFAULT 0,
+  total_str_attempted INTEGER DEFAULT 0,
+  
+  -- Takedowns (for TD accuracy, TD defense features)
+  td_landed INTEGER DEFAULT 0,
+  td_attempted INTEGER DEFAULT 0,
+  
+  -- Submissions and reversals (for grappling features)
+  sub_attempts INTEGER DEFAULT 0,
+  reversals INTEGER DEFAULT 0,
+  
+  -- Control time (for control/dominance features)
+  ctrl_time TEXT,              -- Original format: "3:37"
+  ctrl_seconds INTEGER,        -- Converted to seconds for calculations: 217
+  
+  PRIMARY KEY (round_id, fighter_id),
+  FOREIGN KEY (round_id) REFERENCES fight_rounds_v2(round_id) ON DELETE CASCADE,
+  FOREIGN KEY (fighter_id) REFERENCES fighters_v2(fighter_id) ON DELETE CASCADE
+);
+
+-- ----------------------------------------------------------------------------
+-- 6. Fight Round Significant Strikes (Detailed Strike Breakdown)
+-- For position and target-specific features
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fight_round_sig_strikes_v2 (
+  round_id TEXT NOT NULL,
+  fighter_id TEXT NOT NULL,
+  
+  -- Strikes by target (for head/body/leg landing features)
+  head_landed INTEGER DEFAULT 0,
+  head_attempted INTEGER DEFAULT 0,
+  body_landed INTEGER DEFAULT 0,
+  body_attempted INTEGER DEFAULT 0,
+  leg_landed INTEGER DEFAULT 0,
+  leg_attempted INTEGER DEFAULT 0,
+  
+  -- Strikes by position (for distance/clinch/ground features)
+  distance_landed INTEGER DEFAULT 0,
+  distance_attempted INTEGER DEFAULT 0,
+  clinch_landed INTEGER DEFAULT 0,
+  clinch_attempted INTEGER DEFAULT 0,
+  ground_landed INTEGER DEFAULT 0,
+  ground_attempted INTEGER DEFAULT 0,
+  
+  PRIMARY KEY (round_id, fighter_id),
+  FOREIGN KEY (round_id) REFERENCES fight_rounds_v2(round_id) ON DELETE CASCADE,
+  FOREIGN KEY (fighter_id) REFERENCES fighters_v2(fighter_id) ON DELETE CASCADE
+);
+
+-- ----------------------------------------------------------------------------
+-- 7. Fight Totals (Optional - Pre-aggregated Fight-Wide Stats)
+-- For faster queries when you don't need per-round granularity
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS fight_totals_v2 (
+  fight_id TEXT NOT NULL,
+  fighter_id TEXT NOT NULL,
+  
+  -- Same fields as fight_round_stats_v2 but aggregated across all rounds
+  knockdowns INTEGER DEFAULT 0,
+  sig_str_landed INTEGER DEFAULT 0,
+  sig_str_attempted INTEGER DEFAULT 0,
+  total_str_landed INTEGER DEFAULT 0,
+  total_str_attempted INTEGER DEFAULT 0,
+  td_landed INTEGER DEFAULT 0,
+  td_attempted INTEGER DEFAULT 0,
+  sub_attempts INTEGER DEFAULT 0,
+  reversals INTEGER DEFAULT 0,
+  ctrl_seconds INTEGER DEFAULT 0,
+  
+  PRIMARY KEY (fight_id, fighter_id),
+  FOREIGN KEY (fight_id) REFERENCES fights_v2(fight_id) ON DELETE CASCADE,
+  FOREIGN KEY (fighter_id) REFERENCES fighters_v2(fighter_id) ON DELETE CASCADE
+);
+
+-- ============================================================================
+-- INDEXES FOR QUERY PERFORMANCE
+-- ============================================================================
+
+-- Fighter lookups
+CREATE INDEX IF NOT EXISTS idx_fighters_name ON fighters_v2(name);
+CREATE INDEX IF NOT EXISTS idx_fighters_is_stub ON fighters_v2(is_stub);
+
+-- Fight date queries (critical for time-decay features)
+CREATE INDEX IF NOT EXISTS idx_fights_date ON fights_v2(event_date);
+CREATE INDEX IF NOT EXISTS idx_fights_method ON fights_v2(method);
+
+-- Bridge table lookups (for joining fighters to fights)
+CREATE INDEX IF NOT EXISTS idx_fight_fighters_fighter ON fight_fighters_v2(fighter_id);
+CREATE INDEX IF NOT EXISTS idx_fight_fighters_fight ON fight_fighters_v2(fight_id);
+CREATE INDEX IF NOT EXISTS idx_fight_fighters_result ON fight_fighters_v2(result);
+
+-- Round lookups
+CREATE INDEX IF NOT EXISTS idx_rounds_fight ON fight_rounds_v2(fight_id);
+CREATE INDEX IF NOT EXISTS idx_rounds_number ON fight_rounds_v2(round_number);
+
+-- Per-round stats lookups (most frequent queries)
+CREATE INDEX IF NOT EXISTS idx_round_stats_fighter ON fight_round_stats_v2(fighter_id);
+CREATE INDEX IF NOT EXISTS idx_round_stats_round ON fight_round_stats_v2(round_id);
+
+-- Significant strikes lookups
+CREATE INDEX IF NOT EXISTS idx_sig_strikes_fighter ON fight_round_sig_strikes_v2(fighter_id);
+CREATE INDEX IF NOT EXISTS idx_sig_strikes_round ON fight_round_sig_strikes_v2(round_id);
+
+-- Fight totals lookups
+CREATE INDEX IF NOT EXISTS idx_totals_fighter ON fight_totals_v2(fighter_id);
+CREATE INDEX IF NOT EXISTS idx_totals_fight ON fight_totals_v2(fight_id);
+
+-- ============================================================================
+-- TRACKING TABLE (For Scraper Progress)
+-- ============================================================================
+CREATE TABLE IF NOT EXISTS ingestion_fighter_progress_v2 (
+  v1_id INTEGER PRIMARY KEY,        -- Original v1 database ID (if migrating)
+  name TEXT NOT NULL,
+  ufcstats_url TEXT,
+  ufcstats_fighter_id TEXT,
+  status TEXT NOT NULL,             -- 'pending', 'success', 'failed', 'no_cache'
+  attempts INTEGER NOT NULL DEFAULT 0,
+  last_error TEXT,
+  created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_progress_status ON ingestion_fighter_progress_v2(status);
+CREATE INDEX IF NOT EXISTS idx_progress_fighter_id ON ingestion_fighter_progress_v2(ufcstats_fighter_id);
+
+-- ============================================================================
+-- VIEWS (Optional - For Easier Querying)
+-- ============================================================================
+
+-- View: Complete fight details with both fighters
+CREATE VIEW IF NOT EXISTS v_fight_details AS
+SELECT 
+  f.fight_id,
+  f.event_name,
+  f.event_date,
+  f.weight_class,
+  f.method,
+  f.ending_round,
+  f.ending_time,
+  
+  -- Fighter 1
+  f1.fighter_id as fighter_1_id,
+  f1.name as fighter_1_name,
+  ff1.result as fighter_1_result,
+  
+  -- Fighter 2
+  f2.fighter_id as fighter_2_id,
+  f2.name as fighter_2_name,
+  ff2.result as fighter_2_result
+  
+FROM fights_v2 f
+JOIN fight_fighters_v2 ff1 ON f.fight_id = ff1.fight_id AND ff1.corner = 'fighter_1'
+JOIN fighters_v2 f1 ON ff1.fighter_id = f1.fighter_id
+JOIN fight_fighters_v2 ff2 ON f.fight_id = ff2.fight_id AND ff2.corner = 'fighter_2'
+JOIN fighters_v2 f2 ON ff2.fighter_id = f2.fighter_id;
+
+-- View: Fighter career summary
+CREATE VIEW IF NOT EXISTS v_fighter_summary AS
+SELECT 
+  f.fighter_id,
+  f.name,
+  f.record,
+  COUNT(DISTINCT ff.fight_id) as total_fights,
+  SUM(CASE WHEN ff.result = 'win' THEN 1 ELSE 0 END) as wins,
+  SUM(CASE WHEN ff.result = 'loss' THEN 1 ELSE 0 END) as losses,
+  SUM(CASE WHEN ff.result = 'draw' THEN 1 ELSE 0 END) as draws,
+  SUM(CASE WHEN ff.result = 'nc' THEN 1 ELSE 0 END) as no_contests
+FROM fighters_v2 f
+LEFT JOIN fight_fighters_v2 ff ON f.fighter_id = ff.fighter_id
+GROUP BY f.fighter_id, f.name, f.record;
+
+-- ============================================================================
+-- CONFIRMATION
+-- ============================================================================
+SELECT 'Schema created successfully!' as status;

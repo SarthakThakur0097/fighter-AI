@@ -1,0 +1,216 @@
+# UFC Analytics & Machine Learning Project - Context Document
+
+## Project Overview
+Building an end-to-end UFC analytics and machine-learning system to predict fight outcomes and identify betting/analytical edges. The system starts with custom web scraping, moves through data normalization and storage, and culminates in ML models for fight prediction.
+
+## Current Status: Data Ingestion Phase
+
+### Test Fighter
+- **Currently testing on**: Jon Jones (28-1-0, 1 NC)
+- **Purpose**: Validate complete scraping pipeline and database schema before scaling to full roster
+- **Validation approach**: Manual verification of scraped data accuracy against source
+
+## Technical Stack
+
+### Data Sources
+1. **Primary Source**: UFCStats.com (ufcstats.com)
+   - Fighter profiles with career statistics
+   - Detailed fight-by-fight breakdowns
+   - Per-round striking statistics (unique to this source)
+   
+2. **Existing Database**: Already contains:
+   - Fighter biographical data
+   - Fight dates (`event_date`) 
+   - Aggregated fight statistics
+   - May need to merge/enhance with new scraper data
+
+### Scraping Approach
+- **Tool**: Node.js with node-fetch (Node 18+)
+- **Why not Puppeteer**: UFCStats serves full HTML without JavaScript rendering; node-fetch is 10-50x faster
+- **Strategy**: Scrape fighter profile → scrape each fight's detailed page
+
+## Data Being Captured
+
+### Fighter Profile Data
+- Basic info: name, record, height, weight, reach, stance, DOB
+- Career averages: SLpM, StrAcc, SApM, StrDef, TDAvg, TDAcc, TDDef, SubAvg
+- Complete fight history with URLs
+
+### Per-Fight Data
+**High-level:**
+- Result, opponent, event name, date, method, round, time
+- Weight class, title bout status (regular/interim)
+- Referee, judges, scorecards
+- Fight bonuses (Performance, Fight, KO, Submission of the Night)
+
+**Fight Totals Tables:**
+- Knockdowns (KD)
+- Significant strikes (landed/attempted/percentage)
+- Total strikes (landed/attempted)
+- Takedowns (landed/attempted/percentage)
+- Submission attempts
+- Reversals
+- Control time
+
+**Significant Strikes Breakdown:**
+- By target: head, body, leg (landed/attempted)
+- By position: distance, clinch, ground (landed/attempted)
+- Body part percentages
+
+**Per-Round Granularity** (unique capability):
+- All striking stats broken down by round
+- Enables analysis of:
+  - Fighter momentum/adaptation
+  - Cardio/performance degradation
+  - Strategic adjustments between rounds
+
+### Proposed Enhancements
+Need to determine merge strategy:
+1. **Option A**: Enhance existing schema with new columns + separate per-round table
+2. **Option B**: Create new normalized schema for richer data model
+
+## Recent Progress
+
+### Scraper Development ✅
+- ✅ Result field parsing (win/loss/draw/nc, including W/L header format)
+- ✅ Weight class extraction and cleaning
+- ✅ Title bout detection (regular vs interim)
+- ✅ Bonus awards detection (4 types)
+- ✅ Per-round striking data extraction
+- ✅ Both fighters' statistics captured
+
+### Known Issues Recently Fixed
+- ✅ Per-round table regex now correctly matches HTML structure
+- ✅ Weight class parsing removes HTML artifacts
+- ⚠️ **Dates extraction** - Claims to work now, needs SQL validation
+- ⚠️ **Totals table** - Claims to work now, needs SQL validation  
+- ⚠️ **Sig strikes table** - Claims to work now, needs SQL validation
+
+## Immediate Next Steps
+
+### 1. Data Validation (CURRENT TASK)
+**Action Required**: Run SQL queries on Jon Jones data to verify:
+
+```sql
+-- Check if dates are populated
+SELECT event_name, date, opponent 
+FROM fights_or_details 
+WHERE fighter = 'Jon Jones'
+ORDER BY date DESC;
+
+-- Check if totals table data exists
+SELECT * FROM fight_totals 
+WHERE fight_id IN (
+  SELECT id FROM fights WHERE fighter = 'Jon Jones'
+)
+LIMIT 5;
+
+-- Check if sig_strikes table populated
+SELECT * FROM sig_strikes_breakdown
+WHERE fight_id IN (
+  SELECT id FROM fights WHERE fighter = 'Jon Jones'  
+)
+LIMIT 5;
+
+-- Verify per-round data
+SELECT round_number, sig_str_landed, sig_str_attempted, sig_str_pct
+FROM fight_rounds
+WHERE fight_id = [specific_fight_id]
+ORDER BY round_number;
+```
+
+**Manual Verification**:
+- Pick 2-3 Jon Jones fights
+- Compare scraped data against UFCStats.com source
+- Verify: dates, totals (KD, TD, control time), per-round accuracy
+
+### 2. Schema Finalization
+Once data validated:
+- Decide on merge strategy (enhance existing vs new schema)
+- Write migration script if needed
+- Document column mappings between old and new data
+
+### 3. Scale Scraping
+After Jon Jones validation:
+- Add rate limiting (500ms between requests)
+- Add retry logic with exponential backoff
+- Implement batch processing (5 fighters at a time)
+- Create scraper for fighter list (get all active roster)
+
+## Future Enhancements (Not Yet Implemented)
+
+### High Priority
+- **Betting odds scraping** (external source like BestFightOdds)
+  - Opening line, closing line, implied probability
+  - HUGE signal for ML models
+  - Requires Puppeteer (JavaScript-heavy sites)
+
+### Medium Priority
+- **Opponent quality metrics**
+  - Opponent's record at time of fight
+  - Opponent's ranking (if available)
+  - Creates "strength of schedule" feature
+
+### Lower Priority
+- Fight location/venue (altitude effects)
+- Training camp/team data
+- Medical suspensions
+- Rankings history over time
+
+## ML Pipeline (Future Phases)
+
+### Phase 1: Feature Engineering
+- Derive advanced metrics (strike efficiency, fight pace, damage metrics)
+- Opponent-adjusted statistics
+- Rolling averages (last 3 fights, last 5 fights)
+- Age/experience curves
+- Layoff calculations
+
+### Phase 2: Model Development
+- Start with logistic regression (interpretable baseline)
+- Progress to Random Forest, XGBoost
+- Proper time-series split (train on past, test on future)
+
+### Phase 3: Validation & Production
+- Backtesting framework
+- ROI tracking
+- Model monitoring and retraining
+
+## Key Technical Decisions
+
+### Why Node.js + node-fetch?
+- UFCStats doesn't require JavaScript execution
+- 10-50x faster than Puppeteer
+- Lower memory footprint
+- Easier deployment
+
+### Why Not Scraping All Fighters Yet?
+- Validate data quality first
+- Ensure schema handles edge cases
+- Avoid wasting time on bad data structure
+- Can parallelize once proven
+
+### Data Quality Philosophy
+- Manual verification on test fighter
+- Automated validation rules after proven
+- Better to be slow and accurate than fast and wrong
+
+## Files/Artifacts in Project
+- `ufcstats_enhanced.js` - Main scraper with all enhancements
+- `ufcstats_enhanced_jon-jones.json` - Test output (29 fights)
+- `Stats _ UFC.html` - Sample fight-details HTML for testing
+- `scraper_test.js` - Isolated per-round table parser (debugging tool)
+
+## Questions to Resolve
+1. What was the source of existing database data? (Sherdog? ESPN?)
+2. Should we merge schemas or run parallel?
+3. Do we need to backfill dates in existing DB from new scraper?
+4. What's the unique identifier for fights? (fighter+opponent+date? or fight_details_url?)
+
+## Success Metrics for Current Phase
+- [ ] All Jon Jones fight dates populated correctly
+- [ ] Totals tables (KD, TD, control time) accurate
+- [ ] Sig strikes breakdown matches source
+- [ ] Per-round data validated for at least 3 fights
+- [ ] Schema can handle all edge cases (DQ, overturned results, NC, interim titles)
+- [ ] Ready to scale to 10-20 fighters as next test batch

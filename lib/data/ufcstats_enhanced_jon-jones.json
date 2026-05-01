@@ -1,0 +1,4117 @@
+{
+  "name": "Jon Jones",
+  "record": "28-1-0 (1 NC)",
+  "height": "6' 4\"",
+  "weight": "248 lbs.",
+  "reach": "84\"",
+  "stance": "Orthodox",
+  "dob": "Jul 19, 1987",
+  "SLpM": "4.38",
+  "StrAcc": "58%",
+  "SApM": "2.24",
+  "StrDef": "64%",
+  "TDAvg": "1.89",
+  "TDAcc": "45%",
+  "TDDef": "95%",
+  "SubAvg": "0.5",
+  "fights": [
+    {
+      "result": "win",
+      "opponent": "Stipe Miocic",
+      "event": "UFC 309: Jones vs. Miocic",
+      "date": "",
+      "method": "KO/TKO",
+      "round": "3",
+      "time": "4:29",
+      "fight_details_url": "http://ufcstats.com/fight-details/b35e47f2f58ef026",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/b35e47f2f58ef026",
+        "weight_class": "Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": true,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "KO/TKO",
+        "round": "3",
+        "time": "4:29",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "48 - 87"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "42 of 48",
+              "sig_str_pct": "87%",
+              "head": "36 of 42",
+              "body": "4 of 4",
+              "leg": "2 of 2",
+              "distance": "5 of 6",
+              "clinch": "0 of 0",
+              "ground": "37 of 42"
+            },
+            "fighter_2": {
+              "fighter": "Stipe Miocic",
+              "sig_str": "6 of 13",
+              "sig_str_pct": "46%",
+              "head": "3 of 10",
+              "body": "1 of 1",
+              "leg": "2 of 2",
+              "distance": "5 of 12",
+              "clinch": "0 of 0",
+              "ground": "1 of 1"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "20 of 28",
+              "sig_str_pct": "71%",
+              "head": "9 of 16",
+              "body": "7 of 8",
+              "leg": "4 of 4",
+              "distance": "19 of 27",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Stipe Miocic",
+              "sig_str": "16 of 37",
+              "sig_str_pct": "43%",
+              "head": "9 of 29",
+              "body": "4 of 5",
+              "leg": "3 of 3",
+              "distance": "16 of 37",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "34 of 43",
+              "sig_str_pct": "79%",
+              "head": "25 of 33",
+              "body": "5 of 6",
+              "leg": "4 of 4",
+              "distance": "30 of 37",
+              "clinch": "1 of 2",
+              "ground": "3 of 4"
+            },
+            "fighter_2": {
+              "fighter": "Stipe Miocic",
+              "sig_str": "15 of 39",
+              "sig_str_pct": "38%",
+              "head": "12 of 36",
+              "body": "2 of 2",
+              "leg": "1 of 1",
+              "distance": "11 of 34",
+              "clinch": "4 of 5",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 42,
+              "sig_str_attempted": 48,
+              "sig_str_pct": "87%",
+              "raw": "42 of 48 - 87%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 13,
+              "sig_str_pct": "46%",
+              "raw": "6 of 13 - 46%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 20,
+              "sig_str_attempted": 28,
+              "sig_str_pct": "71%",
+              "raw": "20 of 28 - 71%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 37,
+              "sig_str_pct": "43%",
+              "raw": "16 of 37 - 43%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 34,
+              "sig_str_attempted": 43,
+              "sig_str_pct": "79%",
+              "raw": "34 of 43 - 79%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 15,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "38%",
+              "raw": "15 of 39 - 38%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Ciryl Gane",
+      "event": "UFC 285: Jones vs. Gane",
+      "date": "",
+      "method": "Submission",
+      "round": "1",
+      "time": "2:04",
+      "fight_details_url": "http://ufcstats.com/fight-details/636fd144716a3084",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/636fd144716a3084",
+        "weight_class": "Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": true,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Submission",
+        "round": "1",
+        "time": "2:04",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Marc Goddard",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Marc Goddard",
+            "score": "10 - 50"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "5 of 10",
+              "sig_str_pct": "50%",
+              "head": "2 of 5",
+              "body": "0 of 1",
+              "leg": "3 of 4",
+              "distance": "5 of 10",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Ciryl Gane",
+              "sig_str": "6 of 8",
+              "sig_str_pct": "75%",
+              "head": "1 of 3",
+              "body": "2 of 2",
+              "leg": "3 of 3",
+              "distance": "6 of 8",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 10,
+              "sig_str_pct": "50%",
+              "raw": "5 of 10 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 8,
+              "sig_str_pct": "75%",
+              "raw": "6 of 8 - 75%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Dominick Reyes",
+      "event": "UFC 247: Jones vs. Reyes",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/fae99a4089f8abb0",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/fae99a4089f8abb0",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Dan Miragliotta",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Dan Miragliotta",
+            "score": "47 - 48"
+          },
+          {
+            "judge": "Chris Lee",
+            "score": "47 - 48"
+          },
+          {
+            "judge": "Joe Soliz",
+            "score": "46 - 49"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "17 of 27",
+              "sig_str_pct": "62%",
+              "head": "1 of 5",
+              "body": "6 of 8",
+              "leg": "10 of 14",
+              "distance": "17 of 26",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Dominick Reyes",
+              "sig_str": "23 of 59",
+              "sig_str_pct": "38%",
+              "head": "7 of 33",
+              "body": "11 of 14",
+              "leg": "5 of 12",
+              "distance": "20 of 56",
+              "clinch": "3 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "22 of 37",
+              "sig_str_pct": "59%",
+              "head": "8 of 19",
+              "body": "5 of 7",
+              "leg": "9 of 11",
+              "distance": "22 of 37",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Dominick Reyes",
+              "sig_str": "33 of 68",
+              "sig_str_pct": "48%",
+              "head": "11 of 46",
+              "body": "12 of 12",
+              "leg": "10 of 10",
+              "distance": "33 of 68",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "19 of 34",
+              "sig_str_pct": "55%",
+              "head": "7 of 18",
+              "body": "5 of 7",
+              "leg": "7 of 9",
+              "distance": "19 of 34",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Dominick Reyes",
+              "sig_str": "26 of 45",
+              "sig_str_pct": "57%",
+              "head": "7 of 25",
+              "body": "13 of 14",
+              "leg": "6 of 6",
+              "distance": "23 of 42",
+              "clinch": "3 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "20 of 34",
+              "sig_str_pct": "58%",
+              "head": "8 of 19",
+              "body": "6 of 8",
+              "leg": "6 of 7",
+              "distance": "17 of 30",
+              "clinch": "3 of 4",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Dominick Reyes",
+              "sig_str": "13 of 41",
+              "sig_str_pct": "31%",
+              "head": "7 of 32",
+              "body": "4 of 7",
+              "leg": "2 of 2",
+              "distance": "12 of 40",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "26 of 34",
+              "sig_str_pct": "76%",
+              "head": "7 of 13",
+              "body": "8 of 9",
+              "leg": "11 of 12",
+              "distance": "26 of 34",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Dominick Reyes",
+              "sig_str": "21 of 46",
+              "sig_str_pct": "45%",
+              "head": "9 of 33",
+              "body": "8 of 8",
+              "leg": "4 of 5",
+              "distance": "21 of 46",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 17,
+              "sig_str_attempted": 27,
+              "sig_str_pct": "62%",
+              "raw": "17 of 27 - 62%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 23,
+              "sig_str_attempted": 59,
+              "sig_str_pct": "38%",
+              "raw": "23 of 59 - 38%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 22,
+              "sig_str_attempted": 37,
+              "sig_str_pct": "59%",
+              "raw": "22 of 37 - 59%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 33,
+              "sig_str_attempted": 68,
+              "sig_str_pct": "48%",
+              "raw": "33 of 68 - 48%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 19,
+              "sig_str_attempted": 34,
+              "sig_str_pct": "55%",
+              "raw": "19 of 34 - 55%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 45,
+              "sig_str_pct": "57%",
+              "raw": "26 of 45 - 57%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 20,
+              "sig_str_attempted": 34,
+              "sig_str_pct": "58%",
+              "raw": "20 of 34 - 58%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 13,
+              "sig_str_attempted": 41,
+              "sig_str_pct": "31%",
+              "raw": "13 of 41 - 31%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 34,
+              "sig_str_pct": "76%",
+              "raw": "26 of 34 - 76%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 21,
+              "sig_str_attempted": 46,
+              "sig_str_pct": "45%",
+              "raw": "21 of 46 - 45%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Thiago Santos",
+      "event": "UFC 239: Jones vs. Santos",
+      "date": "",
+      "method": "Decision - Split",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/8fcdfee81cc604e3",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/8fcdfee81cc604e3",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Split",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "47 - 48"
+          },
+          {
+            "judge": "Junichiro Kamijo",
+            "score": "48 - 47"
+          },
+          {
+            "judge": "Derek Cleary",
+            "score": "47 - 48"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "7 of 16",
+              "sig_str_pct": "43%",
+              "head": "0 of 4",
+              "body": "3 of 5",
+              "leg": "4 of 7",
+              "distance": "7 of 16",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Thiago Santos",
+              "sig_str": "11 of 26",
+              "sig_str_pct": "42%",
+              "head": "3 of 12",
+              "body": "1 of 1",
+              "leg": "7 of 13",
+              "distance": "11 of 26",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "11 of 17",
+              "sig_str_pct": "64%",
+              "head": "2 of 7",
+              "body": "4 of 4",
+              "leg": "5 of 6",
+              "distance": "10 of 15",
+              "clinch": "1 of 2",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Thiago Santos",
+              "sig_str": "7 of 42",
+              "sig_str_pct": "16%",
+              "head": "1 of 25",
+              "body": "2 of 6",
+              "leg": "4 of 11",
+              "distance": "6 of 38",
+              "clinch": "1 of 4",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "14 of 19",
+              "sig_str_pct": "73%",
+              "head": "4 of 7",
+              "body": "4 of 4",
+              "leg": "6 of 8",
+              "distance": "11 of 15",
+              "clinch": "3 of 4",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Thiago Santos",
+              "sig_str": "6 of 33",
+              "sig_str_pct": "18%",
+              "head": "1 of 17",
+              "body": "1 of 6",
+              "leg": "4 of 10",
+              "distance": "6 of 30",
+              "clinch": "0 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "11 of 17",
+              "sig_str_pct": "64%",
+              "head": "2 of 7",
+              "body": "2 of 3",
+              "leg": "7 of 7",
+              "distance": "11 of 17",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Thiago Santos",
+              "sig_str": "8 of 28",
+              "sig_str_pct": "28%",
+              "head": "0 of 13",
+              "body": "1 of 5",
+              "leg": "7 of 10",
+              "distance": "8 of 28",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 21",
+              "sig_str_pct": "76%",
+              "head": "3 of 7",
+              "body": "3 of 3",
+              "leg": "10 of 11",
+              "distance": "16 of 21",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Thiago Santos",
+              "sig_str": "11 of 37",
+              "sig_str_pct": "29%",
+              "head": "4 of 25",
+              "body": "2 of 3",
+              "leg": "5 of 9",
+              "distance": "11 of 37",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 7,
+              "sig_str_attempted": 16,
+              "sig_str_pct": "43%",
+              "raw": "7 of 16 - 43%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 26,
+              "sig_str_pct": "42%",
+              "raw": "11 of 26 - 42%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "64%",
+              "raw": "11 of 17 - 64%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 7,
+              "sig_str_attempted": 42,
+              "sig_str_pct": "16%",
+              "raw": "7 of 42 - 16%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 14,
+              "sig_str_attempted": 19,
+              "sig_str_pct": "73%",
+              "raw": "14 of 19 - 73%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 33,
+              "sig_str_pct": "18%",
+              "raw": "6 of 33 - 18%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "64%",
+              "raw": "11 of 17 - 64%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 28,
+              "sig_str_pct": "28%",
+              "raw": "8 of 28 - 28%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 21,
+              "sig_str_pct": "76%",
+              "raw": "16 of 21 - 76%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 37,
+              "sig_str_pct": "29%",
+              "raw": "11 of 37 - 29%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Anthony Smith",
+      "event": "UFC 235: Jones vs. Smith",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/5b9f545890407976",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/5b9f545890407976",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "44 - 48"
+          },
+          {
+            "judge": "Chris Lee",
+            "score": "44 - 48"
+          },
+          {
+            "judge": "Junichiro Kamijo",
+            "score": "44 - 48"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "13 of 25",
+              "sig_str_pct": "52%",
+              "head": "1 of 11",
+              "body": "5 of 7",
+              "leg": "7 of 7",
+              "distance": "12 of 22",
+              "clinch": "1 of 3",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Anthony Smith",
+              "sig_str": "12 of 21",
+              "sig_str_pct": "57%",
+              "head": "1 of 9",
+              "body": "3 of 4",
+              "leg": "8 of 8",
+              "distance": "10 of 19",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "30 of 44",
+              "sig_str_pct": "68%",
+              "head": "6 of 17",
+              "body": "8 of 10",
+              "leg": "16 of 17",
+              "distance": "28 of 42",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Anthony Smith",
+              "sig_str": "14 of 24",
+              "sig_str_pct": "58%",
+              "head": "8 of 15",
+              "body": "4 of 7",
+              "leg": "2 of 2",
+              "distance": "14 of 24",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "27 of 30",
+              "sig_str_pct": "90%",
+              "head": "4 of 6",
+              "body": "10 of 11",
+              "leg": "13 of 13",
+              "distance": "4 of 6",
+              "clinch": "17 of 18",
+              "ground": "6 of 6"
+            },
+            "fighter_2": {
+              "fighter": "Anthony Smith",
+              "sig_str": "2 of 3",
+              "sig_str_pct": "66%",
+              "head": "0 of 0",
+              "body": "2 of 3",
+              "leg": "0 of 0",
+              "distance": "0 of 1",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "35 of 39",
+              "sig_str_pct": "89%",
+              "head": "25 of 29",
+              "body": "9 of 9",
+              "leg": "1 of 1",
+              "distance": "10 of 13",
+              "clinch": "1 of 1",
+              "ground": "24 of 25"
+            },
+            "fighter_2": {
+              "fighter": "Anthony Smith",
+              "sig_str": "1 of 1",
+              "sig_str_pct": "100%",
+              "head": "0 of 0",
+              "body": "0 of 0",
+              "leg": "1 of 1",
+              "distance": "1 of 1",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "20 of 29",
+              "sig_str_pct": "68%",
+              "head": "9 of 17",
+              "body": "3 of 3",
+              "leg": "8 of 9",
+              "distance": "10 of 19",
+              "clinch": "10 of 10",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Anthony Smith",
+              "sig_str": "7 of 17",
+              "sig_str_pct": "41%",
+              "head": "6 of 16",
+              "body": "0 of 0",
+              "leg": "1 of 1",
+              "distance": "6 of 14",
+              "clinch": "1 of 3",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 13,
+              "sig_str_attempted": 25,
+              "sig_str_pct": "52%",
+              "raw": "13 of 25 - 52%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 12,
+              "sig_str_attempted": 21,
+              "sig_str_pct": "57%",
+              "raw": "12 of 21 - 57%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 30,
+              "sig_str_attempted": 44,
+              "sig_str_pct": "68%",
+              "raw": "30 of 44 - 68%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 14,
+              "sig_str_attempted": 24,
+              "sig_str_pct": "58%",
+              "raw": "14 of 24 - 58%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 27,
+              "sig_str_attempted": 30,
+              "sig_str_pct": "90%",
+              "raw": "27 of 30 - 90%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 2,
+              "sig_str_attempted": 3,
+              "sig_str_pct": "66%",
+              "raw": "2 of 3 - 66%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 35,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "89%",
+              "raw": "35 of 39 - 89%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 1,
+              "sig_str_attempted": 1,
+              "sig_str_pct": "100%",
+              "raw": "1 of 1 - 100%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 20,
+              "sig_str_attempted": 29,
+              "sig_str_pct": "68%",
+              "raw": "20 of 29 - 68%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 7,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "41%",
+              "raw": "7 of 17 - 41%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Alexander Gustafsson",
+      "event": "UFC 232: Jones vs. Gustafsson 2",
+      "date": "",
+      "method": "KO/TKO",
+      "round": "3",
+      "time": "2:02",
+      "fight_details_url": "http://ufcstats.com/fight-details/ceaae1db8ccde29c",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/ceaae1db8ccde29c",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "KO/TKO",
+        "round": "3",
+        "time": "2:02",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Mike Beltran",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Mike Beltran",
+            "score": "36 - 52"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "19 of 36",
+              "sig_str_pct": "52%",
+              "head": "5 of 17",
+              "body": "7 of 8",
+              "leg": "7 of 11",
+              "distance": "15 of 31",
+              "clinch": "4 of 5",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "13 of 32",
+              "sig_str_pct": "40%",
+              "head": "4 of 18",
+              "body": "4 of 6",
+              "leg": "5 of 8",
+              "distance": "10 of 29",
+              "clinch": "3 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "27 of 51",
+              "sig_str_pct": "52%",
+              "head": "8 of 20",
+              "body": "8 of 14",
+              "leg": "11 of 17",
+              "distance": "24 of 48",
+              "clinch": "3 of 3",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "8 of 48",
+              "sig_str_pct": "16%",
+              "head": "7 of 42",
+              "body": "0 of 4",
+              "leg": "1 of 2",
+              "distance": "8 of 48",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "13 of 15",
+              "sig_str_pct": "86%",
+              "head": "13 of 15",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "1 of 2",
+              "clinch": "0 of 0",
+              "ground": "12 of 13"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "1 of 3",
+              "sig_str_pct": "33%",
+              "head": "1 of 2",
+              "body": "0 of 1",
+              "leg": "0 of 0",
+              "distance": "1 of 3",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 19,
+              "sig_str_attempted": 36,
+              "sig_str_pct": "52%",
+              "raw": "19 of 36 - 52%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 13,
+              "sig_str_attempted": 32,
+              "sig_str_pct": "40%",
+              "raw": "13 of 32 - 40%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 27,
+              "sig_str_attempted": 51,
+              "sig_str_pct": "52%",
+              "raw": "27 of 51 - 52%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 48,
+              "sig_str_pct": "16%",
+              "raw": "8 of 48 - 16%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 13,
+              "sig_str_attempted": 15,
+              "sig_str_pct": "86%",
+              "raw": "13 of 15 - 86%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 1,
+              "sig_str_attempted": 3,
+              "sig_str_pct": "33%",
+              "raw": "1 of 3 - 33%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "nc",
+      "opponent": "Daniel Cormier",
+      "event": "UFC 214: Cormier vs. Jones 2",
+      "date": "",
+      "method": "Overturned",
+      "round": "3",
+      "time": "3:01",
+      "fight_details_url": "http://ufcstats.com/fight-details/5ab286735ccee803",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/5ab286735ccee803",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": true,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Overturned",
+        "round": "3",
+        "time": "3:01",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "John McCarthy",
+        "date": "",
+        "judges": [
+          {
+            "judge": "John McCarthy",
+            "score": "60 - 51"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "31 of 60",
+              "sig_str_pct": "51%",
+              "head": "13 of 36",
+              "body": "7 of 9",
+              "leg": "11 of 15",
+              "distance": "26 of 50",
+              "clinch": "5 of 10",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "34 of 66",
+              "sig_str_pct": "51%",
+              "head": "8 of 27",
+              "body": "13 of 19",
+              "leg": "13 of 20",
+              "distance": "31 of 62",
+              "clinch": "3 of 4",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "22 of 54",
+              "sig_str_pct": "40%",
+              "head": "14 of 41",
+              "body": "3 of 4",
+              "leg": "5 of 9",
+              "distance": "17 of 49",
+              "clinch": "5 of 5",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "30 of 47",
+              "sig_str_pct": "63%",
+              "head": "7 of 17",
+              "body": "11 of 14",
+              "leg": "12 of 16",
+              "distance": "29 of 45",
+              "clinch": "1 of 2",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "5 of 26",
+              "sig_str_pct": "19%",
+              "head": "2 of 22",
+              "body": "2 of 3",
+              "leg": "1 of 1",
+              "distance": "3 of 24",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "31 of 52",
+              "sig_str_pct": "59%",
+              "head": "18 of 30",
+              "body": "8 of 10",
+              "leg": "5 of 12",
+              "distance": "16 of 35",
+              "clinch": "0 of 0",
+              "ground": "15 of 17"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 31,
+              "sig_str_attempted": 60,
+              "sig_str_pct": "51%",
+              "raw": "31 of 60 - 51%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 34,
+              "sig_str_attempted": 66,
+              "sig_str_pct": "51%",
+              "raw": "34 of 66 - 51%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 22,
+              "sig_str_attempted": 54,
+              "sig_str_pct": "40%",
+              "raw": "22 of 54 - 40%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 30,
+              "sig_str_attempted": 47,
+              "sig_str_pct": "63%",
+              "raw": "30 of 47 - 63%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 26,
+              "sig_str_pct": "19%",
+              "raw": "5 of 26 - 19%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 31,
+              "sig_str_attempted": 52,
+              "sig_str_pct": "59%",
+              "raw": "31 of 52 - 59%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Ovince Saint Preux",
+      "event": "UFC 197: Jones vs Saint Preux",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/05c8aeb2806be99c",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/05c8aeb2806be99c",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": true,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "44 - 50"
+          },
+          {
+            "judge": "Chris Lee",
+            "score": "45 - 50"
+          },
+          {
+            "judge": "Junichiro Kamijo",
+            "score": "45 - 50"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "13 of 26",
+              "sig_str_pct": "50%",
+              "head": "1 of 7",
+              "body": "7 of 9",
+              "leg": "5 of 10",
+              "distance": "11 of 23",
+              "clinch": "2 of 3",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Ovince Saint Preux",
+              "sig_str": "12 of 31",
+              "sig_str_pct": "38%",
+              "head": "4 of 16",
+              "body": "3 of 7",
+              "leg": "5 of 8",
+              "distance": "11 of 30",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "18 of 28",
+              "sig_str_pct": "64%",
+              "head": "4 of 10",
+              "body": "4 of 4",
+              "leg": "10 of 14",
+              "distance": "13 of 21",
+              "clinch": "5 of 7",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Ovince Saint Preux",
+              "sig_str": "17 of 39",
+              "sig_str_pct": "43%",
+              "head": "12 of 30",
+              "body": "2 of 3",
+              "leg": "3 of 6",
+              "distance": "10 of 28",
+              "clinch": "7 of 11",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "30 of 46",
+              "sig_str_pct": "65%",
+              "head": "5 of 12",
+              "body": "6 of 8",
+              "leg": "19 of 26",
+              "distance": "29 of 44",
+              "clinch": "1 of 2",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Ovince Saint Preux",
+              "sig_str": "11 of 40",
+              "sig_str_pct": "27%",
+              "head": "7 of 31",
+              "body": "2 of 6",
+              "leg": "2 of 3",
+              "distance": "10 of 39",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "26 of 29",
+              "sig_str_pct": "89%",
+              "head": "19 of 20",
+              "body": "4 of 5",
+              "leg": "3 of 4",
+              "distance": "8 of 10",
+              "clinch": "1 of 1",
+              "ground": "17 of 18"
+            },
+            "fighter_2": {
+              "fighter": "Ovince Saint Preux",
+              "sig_str": "6 of 12",
+              "sig_str_pct": "50%",
+              "head": "1 of 6",
+              "body": "2 of 3",
+              "leg": "3 of 3",
+              "distance": "6 of 12",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "18 of 28",
+              "sig_str_pct": "64%",
+              "head": "6 of 14",
+              "body": "3 of 3",
+              "leg": "9 of 11",
+              "distance": "15 of 22",
+              "clinch": "2 of 5",
+              "ground": "1 of 1"
+            },
+            "fighter_2": {
+              "fighter": "Ovince Saint Preux",
+              "sig_str": "11 of 38",
+              "sig_str_pct": "28%",
+              "head": "5 of 30",
+              "body": "3 of 4",
+              "leg": "3 of 4",
+              "distance": "9 of 34",
+              "clinch": "2 of 4",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 13,
+              "sig_str_attempted": 26,
+              "sig_str_pct": "50%",
+              "raw": "13 of 26 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 12,
+              "sig_str_attempted": 31,
+              "sig_str_pct": "38%",
+              "raw": "12 of 31 - 38%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 28,
+              "sig_str_pct": "64%",
+              "raw": "18 of 28 - 64%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 17,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "43%",
+              "raw": "17 of 39 - 43%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 30,
+              "sig_str_attempted": 46,
+              "sig_str_pct": "65%",
+              "raw": "30 of 46 - 65%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 40,
+              "sig_str_pct": "27%",
+              "raw": "11 of 40 - 27%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 29,
+              "sig_str_pct": "89%",
+              "raw": "26 of 29 - 89%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 12,
+              "sig_str_pct": "50%",
+              "raw": "6 of 12 - 50%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 28,
+              "sig_str_pct": "64%",
+              "raw": "18 of 28 - 64%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 38,
+              "sig_str_pct": "28%",
+              "raw": "11 of 38 - 28%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Daniel Cormier",
+      "event": "UFC 182: Jones vs Cormier",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/57385188587c83b9",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/57385188587c83b9",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": true,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "46 - 49"
+          },
+          {
+            "judge": "Cardo Urso",
+            "score": "46 - 49"
+          },
+          {
+            "judge": "Tony Weeks",
+            "score": "46 - 49"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "25 of 55",
+              "sig_str_pct": "45%",
+              "head": "13 of 39",
+              "body": "9 of 10",
+              "leg": "3 of 6",
+              "distance": "19 of 48",
+              "clinch": "6 of 7",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "18 of 48",
+              "sig_str_pct": "37%",
+              "head": "15 of 44",
+              "body": "1 of 2",
+              "leg": "2 of 2",
+              "distance": "12 of 38",
+              "clinch": "6 of 10",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 36",
+              "sig_str_pct": "44%",
+              "head": "7 of 24",
+              "body": "6 of 7",
+              "leg": "3 of 5",
+              "distance": "9 of 22",
+              "clinch": "7 of 14",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "18 of 46",
+              "sig_str_pct": "39%",
+              "head": "9 of 34",
+              "body": "7 of 9",
+              "leg": "2 of 3",
+              "distance": "11 of 34",
+              "clinch": "7 of 12",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "24 of 43",
+              "sig_str_pct": "55%",
+              "head": "9 of 24",
+              "body": "8 of 10",
+              "leg": "7 of 9",
+              "distance": "16 of 33",
+              "clinch": "8 of 10",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "15 of 47",
+              "sig_str_pct": "31%",
+              "head": "12 of 37",
+              "body": "2 of 4",
+              "leg": "1 of 6",
+              "distance": "8 of 31",
+              "clinch": "6 of 14",
+              "ground": "1 of 2"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 27",
+              "sig_str_pct": "59%",
+              "head": "9 of 15",
+              "body": "6 of 8",
+              "leg": "1 of 4",
+              "distance": "5 of 14",
+              "clinch": "10 of 10",
+              "ground": "1 of 3"
+            },
+            "fighter_2": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "3 of 16",
+              "sig_str_pct": "18%",
+              "head": "1 of 8",
+              "body": "0 of 3",
+              "leg": "2 of 5",
+              "distance": "3 of 15",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "11 of 17",
+              "sig_str_pct": "64%",
+              "head": "5 of 9",
+              "body": "5 of 6",
+              "leg": "1 of 2",
+              "distance": "2 of 6",
+              "clinch": "9 of 11",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Daniel Cormier",
+              "sig_str": "4 of 8",
+              "sig_str_pct": "50%",
+              "head": "3 of 7",
+              "body": "1 of 1",
+              "leg": "0 of 0",
+              "distance": "1 of 3",
+              "clinch": "3 of 5",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 25,
+              "sig_str_attempted": 55,
+              "sig_str_pct": "45%",
+              "raw": "25 of 55 - 45%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 48,
+              "sig_str_pct": "37%",
+              "raw": "18 of 48 - 37%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 36,
+              "sig_str_pct": "44%",
+              "raw": "16 of 36 - 44%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 46,
+              "sig_str_pct": "39%",
+              "raw": "18 of 46 - 39%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 24,
+              "sig_str_attempted": 43,
+              "sig_str_pct": "55%",
+              "raw": "24 of 43 - 55%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 15,
+              "sig_str_attempted": 47,
+              "sig_str_pct": "31%",
+              "raw": "15 of 47 - 31%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 27,
+              "sig_str_pct": "59%",
+              "raw": "16 of 27 - 59%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 16,
+              "sig_str_pct": "18%",
+              "raw": "3 of 16 - 18%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "64%",
+              "raw": "11 of 17 - 64%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 4,
+              "sig_str_attempted": 8,
+              "sig_str_pct": "50%",
+              "raw": "4 of 8 - 50%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Glover Teixeira",
+      "event": "UFC 172: Jones vs Teixeira",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/e332aec001b34f50",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/e332aec001b34f50",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Dan Miragliotta",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Dan Miragliotta",
+            "score": "45 - 50"
+          },
+          {
+            "judge": "Chris Lee",
+            "score": "45 - 50"
+          },
+          {
+            "judge": "Cardo Urso",
+            "score": "45 - 50"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "23 of 38",
+              "sig_str_pct": "60%",
+              "head": "13 of 28",
+              "body": "5 of 5",
+              "leg": "5 of 5",
+              "distance": "22 of 37",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Glover Teixeira",
+              "sig_str": "13 of 46",
+              "sig_str_pct": "28%",
+              "head": "6 of 36",
+              "body": "7 of 10",
+              "leg": "0 of 0",
+              "distance": "11 of 43",
+              "clinch": "2 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "25 of 42",
+              "sig_str_pct": "59%",
+              "head": "16 of 30",
+              "body": "2 of 4",
+              "leg": "7 of 8",
+              "distance": "23 of 40",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Glover Teixeira",
+              "sig_str": "9 of 35",
+              "sig_str_pct": "25%",
+              "head": "4 of 24",
+              "body": "5 of 11",
+              "leg": "0 of 0",
+              "distance": "6 of 28",
+              "clinch": "3 of 7",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "35 of 53",
+              "sig_str_pct": "66%",
+              "head": "20 of 37",
+              "body": "10 of 10",
+              "leg": "5 of 6",
+              "distance": "21 of 38",
+              "clinch": "14 of 15",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Glover Teixeira",
+              "sig_str": "12 of 36",
+              "sig_str_pct": "33%",
+              "head": "8 of 27",
+              "body": "4 of 9",
+              "leg": "0 of 0",
+              "distance": "2 of 16",
+              "clinch": "10 of 20",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "31 of 53",
+              "sig_str_pct": "58%",
+              "head": "20 of 41",
+              "body": "6 of 6",
+              "leg": "5 of 6",
+              "distance": "19 of 33",
+              "clinch": "10 of 15",
+              "ground": "2 of 5"
+            },
+            "fighter_2": {
+              "fighter": "Glover Teixeira",
+              "sig_str": "9 of 32",
+              "sig_str_pct": "28%",
+              "head": "8 of 29",
+              "body": "1 of 3",
+              "leg": "0 of 0",
+              "distance": "6 of 23",
+              "clinch": "3 of 9",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "24 of 50",
+              "sig_str_pct": "48%",
+              "head": "19 of 43",
+              "body": "2 of 3",
+              "leg": "3 of 4",
+              "distance": "14 of 34",
+              "clinch": "10 of 16",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Glover Teixeira",
+              "sig_str": "10 of 43",
+              "sig_str_pct": "23%",
+              "head": "8 of 38",
+              "body": "2 of 5",
+              "leg": "0 of 0",
+              "distance": "5 of 25",
+              "clinch": "5 of 18",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 23,
+              "sig_str_attempted": 38,
+              "sig_str_pct": "60%",
+              "raw": "23 of 38 - 60%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 13,
+              "sig_str_attempted": 46,
+              "sig_str_pct": "28%",
+              "raw": "13 of 46 - 28%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 25,
+              "sig_str_attempted": 42,
+              "sig_str_pct": "59%",
+              "raw": "25 of 42 - 59%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 9,
+              "sig_str_attempted": 35,
+              "sig_str_pct": "25%",
+              "raw": "9 of 35 - 25%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 35,
+              "sig_str_attempted": 53,
+              "sig_str_pct": "66%",
+              "raw": "35 of 53 - 66%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 12,
+              "sig_str_attempted": 36,
+              "sig_str_pct": "33%",
+              "raw": "12 of 36 - 33%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 31,
+              "sig_str_attempted": 53,
+              "sig_str_pct": "58%",
+              "raw": "31 of 53 - 58%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 9,
+              "sig_str_attempted": 32,
+              "sig_str_pct": "28%",
+              "raw": "9 of 32 - 28%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 24,
+              "sig_str_attempted": 50,
+              "sig_str_pct": "48%",
+              "raw": "24 of 50 - 48%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 10,
+              "sig_str_attempted": 43,
+              "sig_str_pct": "23%",
+              "raw": "10 of 43 - 23%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Alexander Gustafsson",
+      "event": "UFC 165: Jones vs Gustafsson",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/0aa5be9d0e75dd42",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/0aa5be9d0e75dd42",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": true,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "John McCarthy",
+        "date": "",
+        "judges": [
+          {
+            "judge": "John McCarthy",
+            "score": "47 - 48"
+          },
+          {
+            "judge": "Doug Crosby",
+            "score": "47 - 48"
+          },
+          {
+            "judge": "Chris Lee",
+            "score": "46 - 49"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "28 of 39",
+              "sig_str_pct": "71%",
+              "head": "5 of 12",
+              "body": "8 of 9",
+              "leg": "15 of 18",
+              "distance": "27 of 38",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "19 of 48",
+              "sig_str_pct": "39%",
+              "head": "8 of 30",
+              "body": "4 of 11",
+              "leg": "7 of 7",
+              "distance": "19 of 47",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "26 of 42",
+              "sig_str_pct": "61%",
+              "head": "5 of 13",
+              "body": "7 of 12",
+              "leg": "14 of 17",
+              "distance": "26 of 42",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "15 of 51",
+              "sig_str_pct": "29%",
+              "head": "9 of 38",
+              "body": "3 of 9",
+              "leg": "3 of 4",
+              "distance": "15 of 50",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "29 of 42",
+              "sig_str_pct": "69%",
+              "head": "11 of 22",
+              "body": "8 of 8",
+              "leg": "10 of 12",
+              "distance": "29 of 42",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "26 of 64",
+              "sig_str_pct": "40%",
+              "head": "14 of 39",
+              "body": "10 of 20",
+              "leg": "2 of 5",
+              "distance": "26 of 64",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "27 of 49",
+              "sig_str_pct": "55%",
+              "head": "17 of 36",
+              "body": "3 of 5",
+              "leg": "7 of 8",
+              "distance": "22 of 42",
+              "clinch": "5 of 7",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "26 of 60",
+              "sig_str_pct": "43%",
+              "head": "15 of 45",
+              "body": "9 of 13",
+              "leg": "2 of 2",
+              "distance": "26 of 59",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "24 of 45",
+              "sig_str_pct": "53%",
+              "head": "15 of 32",
+              "body": "2 of 3",
+              "leg": "7 of 10",
+              "distance": "23 of 44",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Alexander Gustafsson",
+              "sig_str": "24 of 65",
+              "sig_str_pct": "36%",
+              "head": "17 of 52",
+              "body": "7 of 12",
+              "leg": "0 of 1",
+              "distance": "22 of 63",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 28,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "71%",
+              "raw": "28 of 39 - 71%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 19,
+              "sig_str_attempted": 48,
+              "sig_str_pct": "39%",
+              "raw": "19 of 48 - 39%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 42,
+              "sig_str_pct": "61%",
+              "raw": "26 of 42 - 61%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 15,
+              "sig_str_attempted": 51,
+              "sig_str_pct": "29%",
+              "raw": "15 of 51 - 29%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 29,
+              "sig_str_attempted": 42,
+              "sig_str_pct": "69%",
+              "raw": "29 of 42 - 69%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 64,
+              "sig_str_pct": "40%",
+              "raw": "26 of 64 - 40%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 27,
+              "sig_str_attempted": 49,
+              "sig_str_pct": "55%",
+              "raw": "27 of 49 - 55%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 60,
+              "sig_str_pct": "43%",
+              "raw": "26 of 60 - 43%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 24,
+              "sig_str_attempted": 45,
+              "sig_str_pct": "53%",
+              "raw": "24 of 45 - 53%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 24,
+              "sig_str_attempted": 65,
+              "sig_str_pct": "36%",
+              "raw": "24 of 65 - 36%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Chael Sonnen",
+      "event": "UFC 159: Jones vs Sonnen",
+      "date": "",
+      "method": "KO/TKO",
+      "round": "1",
+      "time": "4:33",
+      "fight_details_url": "http://ufcstats.com/fight-details/8151421edf24a821",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/8151421edf24a821",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "4:33",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Keith Peterson",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Keith Peterson",
+            "score": "27 - 74"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "20 of 27",
+              "sig_str_pct": "74%",
+              "head": "16 of 22",
+              "body": "4 of 5",
+              "leg": "0 of 0",
+              "distance": "0 of 1",
+              "clinch": "5 of 7",
+              "ground": "15 of 19"
+            },
+            "fighter_2": {
+              "fighter": "Chael Sonnen",
+              "sig_str": "6 of 15",
+              "sig_str_pct": "40%",
+              "head": "0 of 5",
+              "body": "6 of 9",
+              "leg": "0 of 1",
+              "distance": "0 of 5",
+              "clinch": "6 of 10",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 20,
+              "sig_str_attempted": 27,
+              "sig_str_pct": "74%",
+              "raw": "20 of 27 - 74%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 15,
+              "sig_str_pct": "40%",
+              "raw": "6 of 15 - 40%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Vitor Belfort",
+      "event": "UFC 152: Jones vs Belfort",
+      "date": "",
+      "method": "Submission",
+      "round": "4",
+      "time": "0:54",
+      "fight_details_url": "http://ufcstats.com/fight-details/8af511cc6e6a9678",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/8af511cc6e6a9678",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": true,
+        "method": "Submission",
+        "round": "4",
+        "time": "0:54",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "John McCarthy",
+        "date": "",
+        "judges": [
+          {
+            "judge": "John McCarthy",
+            "score": "24 - 79"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "19 of 24",
+              "sig_str_pct": "79%",
+              "head": "16 of 21",
+              "body": "2 of 2",
+              "leg": "1 of 1",
+              "distance": "1 of 1",
+              "clinch": "0 of 0",
+              "ground": "18 of 23"
+            },
+            "fighter_2": {
+              "fighter": "Vitor Belfort",
+              "sig_str": "1 of 2",
+              "sig_str_pct": "50%",
+              "head": "0 of 1",
+              "body": "0 of 0",
+              "leg": "1 of 1",
+              "distance": "1 of 1",
+              "clinch": "0 of 0",
+              "ground": "0 of 1"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "23 of 40",
+              "sig_str_pct": "57%",
+              "head": "14 of 26",
+              "body": "0 of 2",
+              "leg": "9 of 12",
+              "distance": "13 of 28",
+              "clinch": "0 of 0",
+              "ground": "10 of 12"
+            },
+            "fighter_2": {
+              "fighter": "Vitor Belfort",
+              "sig_str": "6 of 16",
+              "sig_str_pct": "37%",
+              "head": "2 of 11",
+              "body": "2 of 3",
+              "leg": "2 of 2",
+              "distance": "5 of 15",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "18 of 36",
+              "sig_str_pct": "50%",
+              "head": "12 of 25",
+              "body": "3 of 6",
+              "leg": "3 of 5",
+              "distance": "7 of 17",
+              "clinch": "0 of 1",
+              "ground": "11 of 18"
+            },
+            "fighter_2": {
+              "fighter": "Vitor Belfort",
+              "sig_str": "6 of 10",
+              "sig_str_pct": "60%",
+              "head": "4 of 8",
+              "body": "0 of 0",
+              "leg": "2 of 2",
+              "distance": "5 of 9",
+              "clinch": "0 of 0",
+              "ground": "1 of 1"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "5 of 10",
+              "sig_str_pct": "50%",
+              "head": "4 of 7",
+              "body": "0 of 0",
+              "leg": "1 of 3",
+              "distance": "2 of 6",
+              "clinch": "0 of 1",
+              "ground": "3 of 3"
+            },
+            "fighter_2": {
+              "fighter": "Vitor Belfort",
+              "sig_str": "3 of 8",
+              "sig_str_pct": "37%",
+              "head": "2 of 6",
+              "body": "1 of 2",
+              "leg": "0 of 0",
+              "distance": "0 of 3",
+              "clinch": "3 of 5",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 19,
+              "sig_str_attempted": 24,
+              "sig_str_pct": "79%",
+              "raw": "19 of 24 - 79%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 1,
+              "sig_str_attempted": 2,
+              "sig_str_pct": "50%",
+              "raw": "1 of 2 - 50%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 23,
+              "sig_str_attempted": 40,
+              "sig_str_pct": "57%",
+              "raw": "23 of 40 - 57%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 16,
+              "sig_str_pct": "37%",
+              "raw": "6 of 16 - 37%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 36,
+              "sig_str_pct": "50%",
+              "raw": "18 of 36 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 10,
+              "sig_str_pct": "60%",
+              "raw": "6 of 10 - 60%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 10,
+              "sig_str_pct": "50%",
+              "raw": "5 of 10 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 8,
+              "sig_str_pct": "37%",
+              "raw": "3 of 8 - 37%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Rashad Evans",
+      "event": "UFC 145: Jones vs Evans",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "5",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/9dc5b5f29d9ff028",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/9dc5b5f29d9ff028",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "5",
+        "time": "5:00",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "46 - 49"
+          },
+          {
+            "judge": "Chris Lee",
+            "score": "46 - 49"
+          },
+          {
+            "judge": "Richard Bertrand",
+            "score": "45 - 50"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 39",
+              "sig_str_pct": "41%",
+              "head": "8 of 20",
+              "body": "6 of 13",
+              "leg": "2 of 6",
+              "distance": "15 of 36",
+              "clinch": "1 of 3",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Rashad Evans",
+              "sig_str": "10 of 30",
+              "sig_str_pct": "33%",
+              "head": "5 of 21",
+              "body": "1 of 2",
+              "leg": "4 of 7",
+              "distance": "9 of 29",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "21 of 47",
+              "sig_str_pct": "44%",
+              "head": "15 of 35",
+              "body": "4 of 9",
+              "leg": "2 of 3",
+              "distance": "15 of 38",
+              "clinch": "6 of 9",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Rashad Evans",
+              "sig_str": "16 of 39",
+              "sig_str_pct": "41%",
+              "head": "6 of 25",
+              "body": "6 of 9",
+              "leg": "4 of 5",
+              "distance": "14 of 35",
+              "clinch": "2 of 4",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "20 of 40",
+              "sig_str_pct": "50%",
+              "head": "13 of 32",
+              "body": "4 of 5",
+              "leg": "3 of 3",
+              "distance": "18 of 38",
+              "clinch": "2 of 2",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Rashad Evans",
+              "sig_str": "9 of 30",
+              "sig_str_pct": "30%",
+              "head": "3 of 21",
+              "body": "1 of 4",
+              "leg": "5 of 5",
+              "distance": "8 of 29",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "23 of 44",
+              "sig_str_pct": "52%",
+              "head": "16 of 34",
+              "body": "3 of 6",
+              "leg": "4 of 4",
+              "distance": "19 of 38",
+              "clinch": "4 of 6",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Rashad Evans",
+              "sig_str": "7 of 26",
+              "sig_str_pct": "26%",
+              "head": "2 of 18",
+              "body": "3 of 6",
+              "leg": "2 of 2",
+              "distance": "6 of 23",
+              "clinch": "1 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "25 of 44",
+              "sig_str_pct": "56%",
+              "head": "16 of 33",
+              "body": "2 of 4",
+              "leg": "7 of 7",
+              "distance": "19 of 37",
+              "clinch": "5 of 5",
+              "ground": "1 of 2"
+            },
+            "fighter_2": {
+              "fighter": "Rashad Evans",
+              "sig_str": "3 of 26",
+              "sig_str_pct": "11%",
+              "head": "0 of 19",
+              "body": "2 of 6",
+              "leg": "1 of 1",
+              "distance": "2 of 21",
+              "clinch": "1 of 2",
+              "ground": "0 of 3"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "41%",
+              "raw": "16 of 39 - 41%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 10,
+              "sig_str_attempted": 30,
+              "sig_str_pct": "33%",
+              "raw": "10 of 30 - 33%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 21,
+              "sig_str_attempted": 47,
+              "sig_str_pct": "44%",
+              "raw": "21 of 47 - 44%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "41%",
+              "raw": "16 of 39 - 41%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 20,
+              "sig_str_attempted": 40,
+              "sig_str_pct": "50%",
+              "raw": "20 of 40 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 9,
+              "sig_str_attempted": 30,
+              "sig_str_pct": "30%",
+              "raw": "9 of 30 - 30%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 23,
+              "sig_str_attempted": 44,
+              "sig_str_pct": "52%",
+              "raw": "23 of 44 - 52%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 7,
+              "sig_str_attempted": 26,
+              "sig_str_pct": "26%",
+              "raw": "7 of 26 - 26%"
+            }
+          },
+          {
+            "round": "5",
+            "fighter_1": {
+              "sig_str_landed": 25,
+              "sig_str_attempted": 44,
+              "sig_str_pct": "56%",
+              "raw": "25 of 44 - 56%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 26,
+              "sig_str_pct": "11%",
+              "raw": "3 of 26 - 11%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Lyoto Machida",
+      "event": "UFC 140: Jones vs Machida",
+      "date": "",
+      "method": "Submission",
+      "round": "2",
+      "time": "4:26",
+      "fight_details_url": "http://ufcstats.com/fight-details/834968d130e1f0e9",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/834968d130e1f0e9",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": true,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Submission",
+        "round": "2",
+        "time": "4:26",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "John McCarthy",
+        "date": "",
+        "judges": [
+          {
+            "judge": "John McCarthy",
+            "score": "27 - 29"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "8 of 27",
+              "sig_str_pct": "29%",
+              "head": "1 of 10",
+              "body": "0 of 4",
+              "leg": "7 of 13",
+              "distance": "8 of 26",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Lyoto Machida",
+              "sig_str": "8 of 25",
+              "sig_str_pct": "32%",
+              "head": "4 of 19",
+              "body": "2 of 3",
+              "leg": "2 of 3",
+              "distance": "8 of 23",
+              "clinch": "0 of 2",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 26",
+              "sig_str_pct": "61%",
+              "head": "5 of 11",
+              "body": "6 of 9",
+              "leg": "5 of 6",
+              "distance": "6 of 14",
+              "clinch": "7 of 8",
+              "ground": "3 of 4"
+            },
+            "fighter_2": {
+              "fighter": "Lyoto Machida",
+              "sig_str": "5 of 13",
+              "sig_str_pct": "38%",
+              "head": "3 of 10",
+              "body": "0 of 1",
+              "leg": "2 of 2",
+              "distance": "5 of 12",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 27,
+              "sig_str_pct": "29%",
+              "raw": "8 of 27 - 29%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 25,
+              "sig_str_pct": "32%",
+              "raw": "8 of 25 - 32%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 26,
+              "sig_str_pct": "61%",
+              "raw": "16 of 26 - 61%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 13,
+              "sig_str_pct": "38%",
+              "raw": "5 of 13 - 38%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Quinton Jackson",
+      "event": "UFC 135: Jones vs Rampage",
+      "date": "",
+      "method": "Submission",
+      "round": "4",
+      "time": "1:14",
+      "fight_details_url": "http://ufcstats.com/fight-details/181ce41897b37352",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/181ce41897b37352",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": true,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Submission",
+        "round": "4",
+        "time": "1:14",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Josh Rosenthal",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Josh Rosenthal",
+            "score": "31 - 51"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 31",
+              "sig_str_pct": "51%",
+              "head": "4 of 13",
+              "body": "1 of 3",
+              "leg": "11 of 15",
+              "distance": "8 of 19",
+              "clinch": "8 of 12",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Quinton Jackson",
+              "sig_str": "3 of 15",
+              "sig_str_pct": "20%",
+              "head": "1 of 12",
+              "body": "2 of 3",
+              "leg": "0 of 0",
+              "distance": "2 of 10",
+              "clinch": "1 of 5",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "19 of 39",
+              "sig_str_pct": "48%",
+              "head": "3 of 20",
+              "body": "6 of 8",
+              "leg": "10 of 11",
+              "distance": "17 of 35",
+              "clinch": "2 of 4",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Quinton Jackson",
+              "sig_str": "8 of 14",
+              "sig_str_pct": "57%",
+              "head": "3 of 8",
+              "body": "3 of 4",
+              "leg": "2 of 2",
+              "distance": "6 of 11",
+              "clinch": "2 of 3",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "23 of 41",
+              "sig_str_pct": "56%",
+              "head": "9 of 24",
+              "body": "5 of 6",
+              "leg": "9 of 11",
+              "distance": "16 of 31",
+              "clinch": "2 of 3",
+              "ground": "5 of 7"
+            },
+            "fighter_2": {
+              "fighter": "Quinton Jackson",
+              "sig_str": "5 of 15",
+              "sig_str_pct": "33%",
+              "head": "2 of 11",
+              "body": "0 of 1",
+              "leg": "3 of 3",
+              "distance": "5 of 14",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "3 of 6",
+              "sig_str_pct": "50%",
+              "head": "2 of 5",
+              "body": "1 of 1",
+              "leg": "0 of 0",
+              "distance": "1 of 4",
+              "clinch": "0 of 0",
+              "ground": "2 of 2"
+            },
+            "fighter_2": {
+              "fighter": "Quinton Jackson",
+              "sig_str": "0 of 0",
+              "sig_str_pct": "---",
+              "head": "0 of 0",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "0 of 0",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 31,
+              "sig_str_pct": "51%",
+              "raw": "16 of 31 - 51%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 15,
+              "sig_str_pct": "20%",
+              "raw": "3 of 15 - 20%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 19,
+              "sig_str_attempted": 39,
+              "sig_str_pct": "48%",
+              "raw": "19 of 39 - 48%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 14,
+              "sig_str_pct": "57%",
+              "raw": "8 of 14 - 57%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 23,
+              "sig_str_attempted": 41,
+              "sig_str_pct": "56%",
+              "raw": "23 of 41 - 56%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 15,
+              "sig_str_pct": "33%",
+              "raw": "5 of 15 - 33%"
+            }
+          },
+          {
+            "round": "4",
+            "fighter_1": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 6,
+              "sig_str_pct": "50%",
+              "raw": "3 of 6 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 0,
+              "sig_str_attempted": 0,
+              "sig_str_pct": "0%",
+              "raw": "0 of 0 - 0%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Mauricio Rua",
+      "event": "UFC 128: Shogun vs Jones",
+      "date": "",
+      "method": "KO/TKO",
+      "round": "3",
+      "time": "2:37",
+      "fight_details_url": "http://ufcstats.com/fight-details/dc2a3aeac1441991",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/dc2a3aeac1441991",
+        "weight_class": "Light Heavyweight",
+        "title_bout": true,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "KO/TKO",
+        "round": "3",
+        "time": "2:37",
+        "time_format": "5 Rnd (5-5-5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "17 - 29"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Mauricio Rua",
+              "sig_str": "5 of 17",
+              "sig_str_pct": "29%",
+              "head": "5 of 17",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "5 of 17",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "25 of 42",
+              "sig_str_pct": "59%",
+              "head": "15 of 30",
+              "body": "7 of 9",
+              "leg": "3 of 3",
+              "distance": "10 of 20",
+              "clinch": "5 of 7",
+              "ground": "10 of 15"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Mauricio Rua",
+              "sig_str": "3 of 16",
+              "sig_str_pct": "18%",
+              "head": "0 of 9",
+              "body": "2 of 6",
+              "leg": "1 of 1",
+              "distance": "2 of 12",
+              "clinch": "1 of 4",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "26 of 35",
+              "sig_str_pct": "74%",
+              "head": "14 of 21",
+              "body": "6 of 6",
+              "leg": "6 of 8",
+              "distance": "13 of 21",
+              "clinch": "3 of 3",
+              "ground": "10 of 11"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Mauricio Rua",
+              "sig_str": "1 of 7",
+              "sig_str_pct": "14%",
+              "head": "1 of 6",
+              "body": "0 of 1",
+              "leg": "0 of 0",
+              "distance": "1 of 7",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "24 of 36",
+              "sig_str_pct": "66%",
+              "head": "21 of 32",
+              "body": "2 of 3",
+              "leg": "1 of 1",
+              "distance": "3 of 9",
+              "clinch": "2 of 2",
+              "ground": "19 of 25"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "29%",
+              "raw": "5 of 17 - 29%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 25,
+              "sig_str_attempted": 42,
+              "sig_str_pct": "59%",
+              "raw": "25 of 42 - 59%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 16,
+              "sig_str_pct": "18%",
+              "raw": "3 of 16 - 18%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 26,
+              "sig_str_attempted": 35,
+              "sig_str_pct": "74%",
+              "raw": "26 of 35 - 74%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 1,
+              "sig_str_attempted": 7,
+              "sig_str_pct": "14%",
+              "raw": "1 of 7 - 14%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 24,
+              "sig_str_attempted": 36,
+              "sig_str_pct": "66%",
+              "raw": "24 of 36 - 66%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Ryan Bader",
+      "event": "UFC 126: Silva vs Belfort",
+      "date": "",
+      "method": "Submission",
+      "round": "2",
+      "time": "4:20",
+      "fight_details_url": "http://ufcstats.com/fight-details/65ce293c20bd25e2",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/65ce293c20bd25e2",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": true,
+        "method": "Submission",
+        "round": "2",
+        "time": "4:20",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "17 - 70"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "12 of 17",
+              "sig_str_pct": "70%",
+              "head": "3 of 8",
+              "body": "9 of 9",
+              "leg": "0 of 0",
+              "distance": "2 of 4",
+              "clinch": "0 of 0",
+              "ground": "10 of 13"
+            },
+            "fighter_2": {
+              "fighter": "Ryan Bader",
+              "sig_str": "0 of 7",
+              "sig_str_pct": "0%",
+              "head": "0 of 7",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "0 of 7",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "8 of 25",
+              "sig_str_pct": "32%",
+              "head": "1 of 17",
+              "body": "1 of 1",
+              "leg": "6 of 7",
+              "distance": "8 of 25",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Ryan Bader",
+              "sig_str": "5 of 17",
+              "sig_str_pct": "29%",
+              "head": "3 of 14",
+              "body": "0 of 1",
+              "leg": "2 of 2",
+              "distance": "5 of 17",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 12,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "70%",
+              "raw": "12 of 17 - 70%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 0,
+              "sig_str_attempted": 7,
+              "sig_str_pct": "0%",
+              "raw": "0 of 7 - 0%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 25,
+              "sig_str_pct": "32%",
+              "raw": "8 of 25 - 32%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "29%",
+              "raw": "5 of 17 - 29%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Vladimir Matyushenko",
+      "event": "UFC Live: Jones vs Matyushenko",
+      "date": "",
+      "method": "KO/TKO",
+      "round": "1",
+      "time": "1:52",
+      "fight_details_url": "http://ufcstats.com/fight-details/7949430ebc47f31b",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/7949430ebc47f31b",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "1:52",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "16 - 93"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "15 of 16",
+              "sig_str_pct": "93%",
+              "head": "12 of 12",
+              "body": "2 of 3",
+              "leg": "1 of 1",
+              "distance": "3 of 4",
+              "clinch": "0 of 0",
+              "ground": "12 of 12"
+            },
+            "fighter_2": {
+              "fighter": "Vladimir Matyushenko",
+              "sig_str": "0 of 5",
+              "sig_str_pct": "0%",
+              "head": "0 of 5",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "0 of 5",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 15,
+              "sig_str_attempted": 16,
+              "sig_str_pct": "93%",
+              "raw": "15 of 16 - 93%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 0,
+              "sig_str_attempted": 5,
+              "sig_str_pct": "0%",
+              "raw": "0 of 5 - 0%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Brandon Vera",
+      "event": "UFC Live: Vera vs Jones",
+      "date": "",
+      "method": "KO/TKO",
+      "round": "1",
+      "time": "3:19",
+      "fight_details_url": "http://ufcstats.com/fight-details/43f0495855470427",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/43f0495855470427",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": true,
+        "submission_bonus": false,
+        "method": "KO/TKO",
+        "round": "1",
+        "time": "3:19",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Herb Dean",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Herb Dean",
+            "score": "8 - 62"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Brandon Vera",
+              "sig_str": "5 of 8",
+              "sig_str_pct": "62%",
+              "head": "3 of 5",
+              "body": "1 of 1",
+              "leg": "1 of 2",
+              "distance": "1 of 4",
+              "clinch": "1 of 1",
+              "ground": "3 of 3"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "11 of 17",
+              "sig_str_pct": "64%",
+              "head": "9 of 14",
+              "body": "1 of 1",
+              "leg": "1 of 2",
+              "distance": "1 of 3",
+              "clinch": "1 of 1",
+              "ground": "9 of 13"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 8,
+              "sig_str_pct": "62%",
+              "raw": "5 of 8 - 62%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "64%",
+              "raw": "11 of 17 - 64%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "loss",
+      "opponent": "Matt Hamill",
+      "event": "The Ultimate Fighter: Heavyweights Finale",
+      "date": "",
+      "method": "DQ",
+      "round": "1",
+      "time": "4:14",
+      "fight_details_url": "http://ufcstats.com/fight-details/3f0826158f87f41d",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/3f0826158f87f41d",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "DQ",
+        "round": "1",
+        "time": "4:14",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Steve Mazzagatti",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Steve Mazzagatti",
+            "score": "17 - 29"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Matt Hamill",
+              "sig_str": "5 of 17",
+              "sig_str_pct": "29%",
+              "head": "2 of 11",
+              "body": "0 of 0",
+              "leg": "3 of 6",
+              "distance": "5 of 17",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jon Jones",
+              "sig_str": "44 of 88",
+              "sig_str_pct": "50%",
+              "head": "33 of 76",
+              "body": "7 of 8",
+              "leg": "4 of 4",
+              "distance": "9 of 25",
+              "clinch": "2 of 2",
+              "ground": "33 of 61"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 5,
+              "sig_str_attempted": 17,
+              "sig_str_pct": "29%",
+              "raw": "5 of 17 - 29%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 44,
+              "sig_str_attempted": 88,
+              "sig_str_pct": "50%",
+              "raw": "44 of 88 - 50%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Jake O'Brien",
+      "event": "UFC 100",
+      "date": "",
+      "method": "Submission",
+      "round": "2",
+      "time": "2:43",
+      "fight_details_url": "http://ufcstats.com/fight-details/6f6158830b01ea27",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/6f6158830b01ea27",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Submission",
+        "round": "2",
+        "time": "2:43",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Yves Lavigne",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Yves Lavigne",
+            "score": "54 - 33"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "18 of 54",
+              "sig_str_pct": "33%",
+              "head": "8 of 39",
+              "body": "4 of 4",
+              "leg": "6 of 11",
+              "distance": "18 of 54",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jake O'Brien",
+              "sig_str": "8 of 45",
+              "sig_str_pct": "17%",
+              "head": "8 of 45",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "8 of 44",
+              "clinch": "0 of 1",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "7 of 33",
+              "sig_str_pct": "21%",
+              "head": "3 of 24",
+              "body": "2 of 4",
+              "leg": "2 of 5",
+              "distance": "6 of 32",
+              "clinch": "1 of 1",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Jake O'Brien",
+              "sig_str": "3 of 23",
+              "sig_str_pct": "13%",
+              "head": "3 of 23",
+              "body": "0 of 0",
+              "leg": "0 of 0",
+              "distance": "3 of 23",
+              "clinch": "0 of 0",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 54,
+              "sig_str_pct": "33%",
+              "raw": "18 of 54 - 33%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 8,
+              "sig_str_attempted": 45,
+              "sig_str_pct": "17%",
+              "raw": "8 of 45 - 17%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 7,
+              "sig_str_attempted": 33,
+              "sig_str_pct": "21%",
+              "raw": "7 of 33 - 21%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 3,
+              "sig_str_attempted": 23,
+              "sig_str_pct": "13%",
+              "raw": "3 of 23 - 13%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Stephan Bonnar",
+      "event": "UFC 94: St-Pierre vs Penn 2",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "3",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/afb9d3476c5caafa",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/afb9d3476c5caafa",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "3",
+        "time": "5:00",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Steve Mazzagatti",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Steve Mazzagatti",
+            "score": "27 - 30"
+          },
+          {
+            "judge": "Roy Silbert",
+            "score": "28 - 29"
+          },
+          {
+            "judge": "Cecil Peoples",
+            "score": "28 - 29"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "20 of 27",
+              "sig_str_pct": "74%",
+              "head": "10 of 16",
+              "body": "8 of 9",
+              "leg": "2 of 2",
+              "distance": "4 of 9",
+              "clinch": "10 of 10",
+              "ground": "6 of 8"
+            },
+            "fighter_2": {
+              "fighter": "Stephan Bonnar",
+              "sig_str": "9 of 19",
+              "sig_str_pct": "47%",
+              "head": "0 of 6",
+              "body": "3 of 5",
+              "leg": "6 of 8",
+              "distance": "1 of 9",
+              "clinch": "8 of 10",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "18 of 21",
+              "sig_str_pct": "85%",
+              "head": "10 of 11",
+              "body": "5 of 7",
+              "leg": "3 of 3",
+              "distance": "8 of 10",
+              "clinch": "7 of 8",
+              "ground": "3 of 3"
+            },
+            "fighter_2": {
+              "fighter": "Stephan Bonnar",
+              "sig_str": "11 of 28",
+              "sig_str_pct": "39%",
+              "head": "5 of 19",
+              "body": "3 of 4",
+              "leg": "3 of 5",
+              "distance": "3 of 16",
+              "clinch": "7 of 11",
+              "ground": "1 of 1"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "7 of 14",
+              "sig_str_pct": "50%",
+              "head": "4 of 8",
+              "body": "3 of 6",
+              "leg": "0 of 0",
+              "distance": "1 of 4",
+              "clinch": "5 of 9",
+              "ground": "1 of 1"
+            },
+            "fighter_2": {
+              "fighter": "Stephan Bonnar",
+              "sig_str": "17 of 29",
+              "sig_str_pct": "58%",
+              "head": "10 of 21",
+              "body": "4 of 4",
+              "leg": "3 of 4",
+              "distance": "4 of 14",
+              "clinch": "13 of 15",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 20,
+              "sig_str_attempted": 27,
+              "sig_str_pct": "74%",
+              "raw": "20 of 27 - 74%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 9,
+              "sig_str_attempted": 19,
+              "sig_str_pct": "47%",
+              "raw": "9 of 19 - 47%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 18,
+              "sig_str_attempted": 21,
+              "sig_str_pct": "85%",
+              "raw": "18 of 21 - 85%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 28,
+              "sig_str_pct": "39%",
+              "raw": "11 of 28 - 39%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 7,
+              "sig_str_attempted": 14,
+              "sig_str_pct": "50%",
+              "raw": "7 of 14 - 50%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 17,
+              "sig_str_attempted": 29,
+              "sig_str_pct": "58%",
+              "raw": "17 of 29 - 58%"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "result": "win",
+      "opponent": "Andre Gusmao",
+      "event": "UFC 87: Seek And Destroy",
+      "date": "",
+      "method": "Decision - Unanimous",
+      "round": "3",
+      "time": "5:00",
+      "fight_details_url": "http://ufcstats.com/fight-details/c5e0e4ee11903076",
+      "details": {
+        "url": "http://ufcstats.com/fight-details/c5e0e4ee11903076",
+        "weight_class": "Light Heavyweight",
+        "title_bout": false,
+        "interim_title": false,
+        "performance_bonus": false,
+        "fight_bonus": false,
+        "ko_bonus": false,
+        "submission_bonus": false,
+        "method": "Decision - Unanimous",
+        "round": "3",
+        "time": "5:00",
+        "time_format": "3 Rnd (5-5-5)",
+        "referee": "Darryl Guthmiller",
+        "date": "",
+        "judges": [
+          {
+            "judge": "Darryl Guthmiller",
+            "score": "27 - 30"
+          },
+          {
+            "judge": "Cecil Peoples",
+            "score": "27 - 30"
+          },
+          {
+            "judge": "Jeff Mullen",
+            "score": "28 - 29"
+          }
+        ],
+        "totals": null,
+        "sig_strikes": null,
+        "body_part_pct": null,
+        "per_round": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "16 of 38",
+              "sig_str_pct": "42%",
+              "head": "10 of 30",
+              "body": "6 of 7",
+              "leg": "0 of 1",
+              "distance": "2 of 15",
+              "clinch": "13 of 22",
+              "ground": "1 of 1"
+            },
+            "fighter_2": {
+              "fighter": "Andre Gusmao",
+              "sig_str": "17 of 28",
+              "sig_str_pct": "60%",
+              "head": "4 of 11",
+              "body": "9 of 10",
+              "leg": "4 of 7",
+              "distance": "7 of 14",
+              "clinch": "10 of 14",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "14 of 27",
+              "sig_str_pct": "51%",
+              "head": "7 of 18",
+              "body": "6 of 8",
+              "leg": "1 of 1",
+              "distance": "9 of 20",
+              "clinch": "5 of 7",
+              "ground": "0 of 0"
+            },
+            "fighter_2": {
+              "fighter": "Andre Gusmao",
+              "sig_str": "11 of 31",
+              "sig_str_pct": "35%",
+              "head": "4 of 21",
+              "body": "1 of 4",
+              "leg": "6 of 6",
+              "distance": "8 of 21",
+              "clinch": "3 of 10",
+              "ground": "0 of 0"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "fighter": "Jon Jones",
+              "sig_str": "12 of 37",
+              "sig_str_pct": "32%",
+              "head": "8 of 25",
+              "body": "4 of 9",
+              "leg": "0 of 3",
+              "distance": "2 of 11",
+              "clinch": "8 of 22",
+              "ground": "2 of 4"
+            },
+            "fighter_2": {
+              "fighter": "Andre Gusmao",
+              "sig_str": "6 of 25",
+              "sig_str_pct": "24%",
+              "head": "3 of 17",
+              "body": "1 of 6",
+              "leg": "2 of 2",
+              "distance": "4 of 8",
+              "clinch": "2 of 17",
+              "ground": "0 of 0"
+            }
+          }
+        ],
+        "per_round_summary": [
+          {
+            "round": "1",
+            "fighter_1": {
+              "sig_str_landed": 16,
+              "sig_str_attempted": 38,
+              "sig_str_pct": "42%",
+              "raw": "16 of 38 - 42%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 17,
+              "sig_str_attempted": 28,
+              "sig_str_pct": "60%",
+              "raw": "17 of 28 - 60%"
+            }
+          },
+          {
+            "round": "2",
+            "fighter_1": {
+              "sig_str_landed": 14,
+              "sig_str_attempted": 27,
+              "sig_str_pct": "51%",
+              "raw": "14 of 27 - 51%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 11,
+              "sig_str_attempted": 31,
+              "sig_str_pct": "35%",
+              "raw": "11 of 31 - 35%"
+            }
+          },
+          {
+            "round": "3",
+            "fighter_1": {
+              "sig_str_landed": 12,
+              "sig_str_attempted": 37,
+              "sig_str_pct": "32%",
+              "raw": "12 of 37 - 32%"
+            },
+            "fighter_2": {
+              "sig_str_landed": 6,
+              "sig_str_attempted": 25,
+              "sig_str_pct": "24%",
+              "raw": "6 of 25 - 24%"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "source_url": "http://ufcstats.com/fighter-details/07f72a2a7591b409",
+  "scraped_at": "2025-12-17T20:40:42.615Z"
+}
