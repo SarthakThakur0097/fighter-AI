@@ -163,7 +163,6 @@ def results():
     conn.close()
     return jsonify(result)
 
-
 @app.route("/predict", methods=["GET"])
 def predict():
     f1 = request.args.get("f1")
@@ -179,7 +178,6 @@ def predict():
 
     return jsonify(result)
 
-
 @app.route("/predict/method", methods=["GET"])
 def predict_method_endpoint():
     f1 = request.args.get("f1")
@@ -194,7 +192,6 @@ def predict_method_endpoint():
         return jsonify({"error": "Could not generate prediction"}), 404
 
     return jsonify(result)
-
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
