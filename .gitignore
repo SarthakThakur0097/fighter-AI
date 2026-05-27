@@ -5,7 +5,22 @@ __pycache__/
 
 # C extensions
 *.so
-
+# Allow essential pickle files
+!mma/notebooks/02_features/data/xgb_best_model.pkl
+!mma/notebooks/02_features/data/method_model.pkl
+!mma/notebooks/02_features/data/feature_cols.pkl
+!mma/notebooks/02_features/data/method_feature_cols.pkl
+!mma/notebooks/02_features/data/method_label_encoder.pkl
+!mma/notebooks/02_features/data/fighter_fights_dict.pkl
+!mma/notebooks/02_features/data/opponents_dict.pkl
+!mma/notebooks/02_features/data/fighter_adjperf_history.pkl
+!mma/notebooks/02_features/data/all_fight_stats.pkl
+!mma/notebooks/02_features/data/strike_breakdown_dict.pkl
+!mma/notebooks/02_features/data/strike_defense_dict.pkl
+!mma/notebooks/02_features/data/r1_stats_dict.pkl
+!mma/notebooks/02_features/data/fighter_results_dict.pkl
+!mma/notebooks/02_features/data/fight_decision_dict.pkl
+!mma_fighters.db
 # Distribution / packaging
 .Python
 build/
@@ -190,7 +205,7 @@ build/
 *.sqlite
 *.db
 *.db-journal
-
+!mma_fighters.db
 # Puppeteer Chromium cache
 .cache/
 .chromium/
@@ -203,5 +218,5 @@ coverage/
 *.tsbuildinfo
 
 # Misc
-*.bak
+
 *.tmp
