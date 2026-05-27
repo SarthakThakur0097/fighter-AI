@@ -1,7 +1,15 @@
-import os
-
-from flask import Flask, jsonify, request
 import sys
+import os
+from flask import Flask, jsonify, request
+from src.predict import predict_fight, predict_method
+from flask import Flask, jsonify, request
+# Add notebooks directory to path so src module can be found
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../mma/notebooks'))
+# Also try absolute path from app root
+sys.path.append('/app/mma/notebooks')
+
+
+
 
 sys.path.append(r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma\notebooks")
 
