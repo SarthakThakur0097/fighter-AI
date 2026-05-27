@@ -1,20 +1,21 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../notebooks")))
+
+sys.path.insert(
+    0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../notebooks"))
+)
 
 from flask import Flask, jsonify, request
 from src.predict import predict_fight, predict_method
+
 # Add notebooks directory to path so src module can be found
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../mma/notebooks'))
+sys.path.append(os.path.join(os.path.dirname(__file__), "../../mma/notebooks"))
 # Also try absolute path from app root
-sys.path.append('/app/mma/notebooks')
-
-
+sys.path.append("/app/mma/notebooks")
 
 
 sys.path.append(r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma\notebooks")
 
-from src.predict import predict_fight, predict_method
 
 app = Flask(__name__)
 
@@ -24,8 +25,10 @@ def accuracy():
     import sqlite3
     import pandas as pd
 
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
     DB_PATH = os.environ.get(
-        "DB_PATH", r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma_fighters.db"
+        "DB_PATH", os.path.abspath(os.path.join(BASE_DIR, "../../../mma_fighters.db"))
     )
 
     conn = sqlite3.connect(DB_PATH)
@@ -172,6 +175,7 @@ def results():
     conn.close()
     return jsonify(result)
 
+
 @app.route("/predict", methods=["GET"])
 def predict():
     f1 = request.args.get("f1")
@@ -187,6 +191,7 @@ def predict():
 
     return jsonify(result)
 
+
 @app.route("/predict/method", methods=["GET"])
 def predict_method_endpoint():
     f1 = request.args.get("f1")
@@ -201,6 +206,7 @@ def predict_method_endpoint():
         return jsonify({"error": "Could not generate prediction"}), 404
 
     return jsonify(result)
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
