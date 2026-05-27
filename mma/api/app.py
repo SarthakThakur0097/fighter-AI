@@ -14,8 +14,10 @@ app = Flask(__name__)
 def accuracy():
     import sqlite3
     import pandas as pd
-    DB_PATH = os.environ.get('DB_PATH', 
-    r'C:\Users\Sarthak\Documents\ML\fighter-beta\mma_fighters.db')
+
+    DB_PATH = os.environ.get(
+        "DB_PATH", r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma_fighters.db"
+    )
 
     conn = sqlite3.connect(DB_PATH)
 
@@ -195,4 +197,5 @@ def predict_method_endpoint():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
