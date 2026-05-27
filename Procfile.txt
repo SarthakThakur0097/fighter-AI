@@ -1,2 +1,0 @@
-web: python mma/api/app.py
-gunicorn --chdir /app --pythonpath /app mma.api.app:app

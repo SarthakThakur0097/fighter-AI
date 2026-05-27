@@ -5,4 +5,4 @@ builder = "NIXPACKS"
 nixPkgs = ["python311"]
 
 [deploy]
-startCommand = "gunicorn --chdir mma/api app:app"
+startCommand = "gunicorn --chdir /app --pythonpath /app mma.api.app:app --bind 0.0.0.0:$PORT"
