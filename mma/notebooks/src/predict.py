@@ -24,7 +24,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DATA_PATH = os.path.abspath(os.path.join(BASE_DIR, "../02_features/data"))
 
-DB_PATH = os.path.abspath(os.path.join(BASE_DIR, "../mma_fighters.db"))
+DB_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../../mma_fighters.db"))
+
+print(f"[predict] DB_PATH: {DB_PATH}")
+print(f"[predict] DB exists: {os.path.exists(DB_PATH)}")
 # ── Load everything once at module level ─────────────────────────────────────
 print("[predict] Loading model and cached data...")
 

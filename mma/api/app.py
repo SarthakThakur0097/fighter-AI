@@ -28,7 +28,7 @@ def accuracy():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
     DB_PATH = os.environ.get(
-        "DB_PATH", os.path.abspath(os.path.join(BASE_DIR, "../../../mma_fighters.db"))
+        "DB_PATH", os.path.abspath(os.path.join(BASE_DIR, "../../mma_fighters.db"))
     )
 
     conn = sqlite3.connect(DB_PATH)
