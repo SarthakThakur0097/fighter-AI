@@ -90,6 +90,11 @@ def results():
     conn = sqlite3.connect(DB_PATH)
     limit = request.args.get("limit", 5)
 
+    print("[results] DB_PATH:", DB_PATH, flush=True)
+
+    cur = conn.cursor()
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    print("[results] tables:", cur.fetchall(), flush=True)
     events = pd.read_sql(
         f"""
         SELECT DISTINCT f.event_name, f.event_date
