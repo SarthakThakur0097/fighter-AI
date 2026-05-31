@@ -19,6 +19,11 @@ sys.path.append(r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma\notebooks")
 
 app = Flask(__name__)
 
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
+
 
 @app.route("/accuracy", methods=["GET"])
 def accuracy():
