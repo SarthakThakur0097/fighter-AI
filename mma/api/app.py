@@ -37,6 +37,13 @@ def accuracy():
         "DB_PATH", os.path.abspath(os.path.join(BASE_DIR, "../../mma_fighters.db"))
     )
 
+    DB_PATH = os.environ.get(
+    "DB_PATH",
+    os.path.abspath(os.path.join(BASE_DIR, "../../mma_fighters.db"))
+    )
+
+    print("[results] DB_PATH:", DB_PATH, flush=True)
+
     conn = sqlite3.connect(DB_PATH)
 
     fights = pd.read_sql(
