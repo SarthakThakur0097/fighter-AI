@@ -15,7 +15,8 @@ sys.path.append("/app/mma/notebooks")
 
 
 sys.path.append(r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma\notebooks")
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../../mma_fighters.db"))
 
 app = Flask(__name__)
 
@@ -86,7 +87,6 @@ def results():
     import sqlite3
     import pandas as pd
 
-    DB_PATH = r"C:\Users\Sarthak\Documents\ML\fighter-beta\mma_fighters.db"
     conn = sqlite3.connect(DB_PATH)
     limit = request.args.get("limit", 5)
 
