@@ -37,13 +37,6 @@ def accuracy():
         "DB_PATH", os.path.abspath(os.path.join(BASE_DIR, "../../mma_fighters.db"))
     )
 
-    DB_PATH = os.environ.get(
-    "DB_PATH",
-    os.path.abspath(os.path.join(BASE_DIR, "../../mma_fighters.db"))
-    )
-
-    print("[results] DB_PATH:", DB_PATH, flush=True)
-
     conn = sqlite3.connect(DB_PATH)
 
     fights = pd.read_sql(
@@ -94,14 +87,18 @@ def results():
     import sqlite3
     import pandas as pd
 
-    conn = sqlite3.connect(DB_PATH)
-    limit = request.args.get("limit", 5)
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DB_PATH = os.path.abspath(os.path.join(BASE_DIR, "../../../mma_fighters.db"))
 
     print("[results] DB_PATH:", DB_PATH, flush=True)
+
+    conn = sqlite3.connect(DB_PATH)
+    limit = request.args.get("limit", 5)
 
     cur = conn.cursor()
     cur.execute("SELECT name FROM sqlite_master WHERE type='table';")
     print("[results] tables:", cur.fetchall(), flush=True)
+
     events = pd.read_sql(
         f"""
         SELECT DISTINCT f.event_name, f.event_date
